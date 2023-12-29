@@ -1,6 +1,5 @@
 package revision2;
 
-public class Main {
 	
 	class Base {
 	    public void show() {
@@ -13,11 +12,13 @@ public class Main {
 	        System.out.println("Derived class");
 	    }
 	}
-
+	
+	public class Main{
+		
 	    public static void main(String[] args) {
 	        Base base = new Derived();
 	        base.show();
 	    }
 	}
 
-}
+
